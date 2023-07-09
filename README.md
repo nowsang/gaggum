@@ -1,7 +1,5 @@
 # 가꿈 - 스마트홈 IoT 프로젝트
 
-## 🌱 프로젝트 주소 : https://j8b310.p.ssafy.io/
-
 ---
 
 ## 🌱 소개 영상 보기 : [Youtube URL](https://youtu.be/vD8l-o3K8iA)
@@ -14,7 +12,6 @@
 
 2023.02.20 ~ 2023.04.07 (총 7주)
 
-SSAFY 8기 특화 프로젝트
 
 ## 🌱 팀원 및 역할
 
@@ -268,169 +265,6 @@ https://j8b310.notion.site/8701deb361604d30abb754d51c7c4320
  ┃ ┃ ┣ 📜CMakeLists.txt
  ┃ ┃ ┗ 📜package.xml
  ┣ 📂yolov5
- ┃ ┣ 📂.github
- ┃ ┃ ┣ 📂ISSUE_TEMPLATE
- ┃ ┃ ┃ ┣ 📜bug-report.yml
- ┃ ┃ ┃ ┣ 📜config.yml
- ┃ ┃ ┃ ┣ 📜feature-request.yml
- ┃ ┃ ┃ ┗ 📜question.yml
- ┃ ┃ ┣ 📂workflows
- ┃ ┃ ┃ ┣ 📜ci-testing.yml
- ┃ ┃ ┃ ┣ 📜codeql-analysis.yml
- ┃ ┃ ┃ ┣ 📜docker.yml
- ┃ ┃ ┃ ┣ 📜greetings.yml
- ┃ ┃ ┃ ┣ 📜stale.yml
- ┃ ┃ ┃ ┗ 📜translate-readme.yml
- ┃ ┃ ┣ 📜dependabot.yml
- ┃ ┃ ┗ 📜PULL_REQUEST_TEMPLATE.md
- ┃ ┣ 📂classify
- ┃ ┃ ┣ 📜predict.py
- ┃ ┃ ┣ 📜train.py
- ┃ ┃ ┣ 📜tutorial.ipynb
- ┃ ┃ ┗ 📜val.py
- ┃ ┣ 📂data
- ┃ ┃ ┣ 📂hyps
- ┃ ┃ ┃ ┣ 📜hyp.no-augmentation.yaml
- ┃ ┃ ┃ ┣ 📜hyp.Objects365.yaml
- ┃ ┃ ┃ ┣ 📜hyp.scratch-high.yaml
- ┃ ┃ ┃ ┣ 📜hyp.scratch-low.yaml
- ┃ ┃ ┃ ┣ 📜hyp.scratch-med.yaml
- ┃ ┃ ┃ ┗ 📜hyp.VOC.yaml
- ┃ ┃ ┣ 📂images
- ┃ ┃ ┃ ┣ 📜bus.jpg
- ┃ ┃ ┃ ┗ 📜zidane.jpg
- ┃ ┃ ┣ 📂scripts
- ┃ ┃ ┃ ┣ 📜download_weights.sh
- ┃ ┃ ┃ ┣ 📜get_coco.sh
- ┃ ┃ ┃ ┣ 📜get_coco128.sh
- ┃ ┃ ┃ ┗ 📜get_imagenet.sh
- ┃ ┃ ┣ 📜Argoverse.yaml
- ┃ ┃ ┣ 📜coco.yaml
- ┃ ┃ ┣ 📜coco128-seg.yaml
- ┃ ┃ ┣ 📜coco128.yaml
- ┃ ┃ ┣ 📜GlobalWheat2020.yaml
- ┃ ┃ ┣ 📜ImageNet.yaml
- ┃ ┃ ┣ 📜Objects365.yaml
- ┃ ┃ ┣ 📜SKU-110K.yaml
- ┃ ┃ ┣ 📜VisDrone.yaml
- ┃ ┃ ┣ 📜VOC.yaml
- ┃ ┃ ┗ 📜xView.yaml
- ┃ ┣ 📂models
- ┃ ┃ ┣ 📂hub
- ┃ ┃ ┃ ┣ 📜anchors.yaml
- ┃ ┃ ┃ ┣ 📜yolov3-spp.yaml
- ┃ ┃ ┃ ┣ 📜yolov3-tiny.yaml
- ┃ ┃ ┃ ┣ 📜yolov3.yaml
- ┃ ┃ ┃ ┣ 📜yolov5-bifpn.yaml
- ┃ ┃ ┃ ┣ 📜yolov5-fpn.yaml
- ┃ ┃ ┃ ┣ 📜yolov5-p2.yaml
- ┃ ┃ ┃ ┣ 📜yolov5-p34.yaml
- ┃ ┃ ┃ ┣ 📜yolov5-p6.yaml
- ┃ ┃ ┃ ┣ 📜yolov5-p7.yaml
- ┃ ┃ ┃ ┣ 📜yolov5-panet.yaml
- ┃ ┃ ┃ ┣ 📜yolov5l6.yaml
- ┃ ┃ ┃ ┣ 📜yolov5m6.yaml
- ┃ ┃ ┃ ┣ 📜yolov5n6.yaml
- ┃ ┃ ┃ ┣ 📜yolov5s-ghost.yaml
- ┃ ┃ ┃ ┣ 📜yolov5s-LeakyReLU.yaml
- ┃ ┃ ┃ ┣ 📜yolov5s-transformer.yaml
- ┃ ┃ ┃ ┣ 📜yolov5s6.yaml
- ┃ ┃ ┃ ┗ 📜yolov5x6.yaml
- ┃ ┃ ┣ 📂segment
- ┃ ┃ ┃ ┣ 📜yolov5l-seg.yaml
- ┃ ┃ ┃ ┣ 📜yolov5m-seg.yaml
- ┃ ┃ ┃ ┣ 📜yolov5n-seg.yaml
- ┃ ┃ ┃ ┣ 📜yolov5s-seg.yaml
- ┃ ┃ ┃ ┗ 📜yolov5x-seg.yaml
- ┃ ┃ ┣ 📜common.py
- ┃ ┃ ┣ 📜experimental.py
- ┃ ┃ ┣ 📜tf.py
- ┃ ┃ ┣ 📜yolo.py
- ┃ ┃ ┣ 📜yolov5l.yaml
- ┃ ┃ ┣ 📜yolov5m.yaml
- ┃ ┃ ┣ 📜yolov5n.yaml
- ┃ ┃ ┣ 📜yolov5s.yaml
- ┃ ┃ ┣ 📜yolov5x.yaml
- ┃ ┃ ┗ 📜__init__.py
- ┃ ┣ 📂segment
- ┃ ┃ ┣ 📜predict.py
- ┃ ┃ ┣ 📜train.py
- ┃ ┃ ┣ 📜tutorial.ipynb
- ┃ ┃ ┗ 📜val.py
- ┃ ┣ 📂utils
- ┃ ┃ ┣ 📂aws
- ┃ ┃ ┃ ┣ 📜mime.sh
- ┃ ┃ ┃ ┣ 📜resume.py
- ┃ ┃ ┃ ┣ 📜userdata.sh
- ┃ ┃ ┃ ┗ 📜__init__.py
- ┃ ┃ ┣ 📂docker
- ┃ ┃ ┃ ┣ 📜Dockerfile
- ┃ ┃ ┃ ┣ 📜Dockerfile-arm64
- ┃ ┃ ┃ ┗ 📜Dockerfile-cpu
- ┃ ┃ ┣ 📂flask_rest_api
- ┃ ┃ ┃ ┣ 📜example_request.py
- ┃ ┃ ┃ ┣ 📜README.md
- ┃ ┃ ┃ ┗ 📜restapi.py
- ┃ ┃ ┣ 📂google_app_engine
- ┃ ┃ ┃ ┣ 📜additional_requirements.txt
- ┃ ┃ ┃ ┣ 📜app.yaml
- ┃ ┃ ┃ ┗ 📜Dockerfile
- ┃ ┃ ┣ 📂loggers
- ┃ ┃ ┃ ┣ 📂clearml
- ┃ ┃ ┃ ┃ ┣ 📜clearml_utils.py
- ┃ ┃ ┃ ┃ ┣ 📜hpo.py
- ┃ ┃ ┃ ┃ ┣ 📜README.md
- ┃ ┃ ┃ ┃ ┗ 📜__init__.py
- ┃ ┃ ┃ ┣ 📂comet
- ┃ ┃ ┃ ┃ ┣ 📜comet_utils.py
- ┃ ┃ ┃ ┃ ┣ 📜hpo.py
- ┃ ┃ ┃ ┃ ┣ 📜README.md
- ┃ ┃ ┃ ┃ ┗ 📜__init__.py
- ┃ ┃ ┃ ┣ 📂wandb
- ┃ ┃ ┃ ┃ ┣ 📜wandb_utils.py
- ┃ ┃ ┃ ┃ ┗ 📜__init__.py
- ┃ ┃ ┃ ┗ 📜__init__.py
- ┃ ┃ ┣ 📂segment
- ┃ ┃ ┃ ┣ 📜augmentations.py
- ┃ ┃ ┃ ┣ 📜dataloaders.py
- ┃ ┃ ┃ ┣ 📜general.py
- ┃ ┃ ┃ ┣ 📜loss.py
- ┃ ┃ ┃ ┣ 📜metrics.py
- ┃ ┃ ┃ ┣ 📜plots.py
- ┃ ┃ ┃ ┗ 📜__init__.py
- ┃ ┃ ┣ 📜activations.py
- ┃ ┃ ┣ 📜augmentations.py
- ┃ ┃ ┣ 📜autoanchor.py
- ┃ ┃ ┣ 📜autobatch.py
- ┃ ┃ ┣ 📜callbacks.py
- ┃ ┃ ┣ 📜dataloaders.py
- ┃ ┃ ┣ 📜downloads.py
- ┃ ┃ ┣ 📜general.py
- ┃ ┃ ┣ 📜loss.py
- ┃ ┃ ┣ 📜metrics.py
- ┃ ┃ ┣ 📜plots.py
- ┃ ┃ ┣ 📜torch_utils.py
- ┃ ┃ ┣ 📜triton.py
- ┃ ┃ ┗ 📜__init__.py
- ┃ ┣ 📜.dockerignore
- ┃ ┣ 📜.gitattributes
- ┃ ┣ 📜.gitignore
- ┃ ┣ 📜.pre-commit-config.yaml
- ┃ ┣ 📜benchmarks.py
- ┃ ┣ 📜CITATION.cff
- ┃ ┣ 📜CONTRIBUTING.md
- ┃ ┣ 📜detect.py
- ┃ ┣ 📜export.py
- ┃ ┣ 📜gaggum.yaml
- ┃ ┣ 📜hubconf.py
- ┃ ┣ 📜LICENSE
- ┃ ┣ 📜README.md
- ┃ ┣ 📜README.zh-CN.md
- ┃ ┣ 📜requirements.txt
- ┃ ┣ 📜setup.cfg
- ┃ ┣ 📜train.py
- ┃ ┣ 📜tutorial.ipynb
- ┃ ┗ 📜val.py
  ┗ 📜.gitignore
 ```
 
