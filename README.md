@@ -281,4 +281,4 @@ https://j8b310.notion.site/8701deb361604d30abb754d51c7c4320
 
 ### 식물에 물주기, 화분 옮기기
 
-https://youtu.be/vD8l-o3K8iA
+https://youtu.be/wkYNJnPGWFQ
